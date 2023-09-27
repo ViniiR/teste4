@@ -3,26 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
-    <link rel="stylesheet" href="style.css">
+    <title>pagina</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        @media screen and (min-width: 320px) {
+            main {
+                font-size: 30px;
+            }
+            li {
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            main {
+                font-size: 50px;
+            }
+            li {
+                width: 70%;
+            }
+        }
+
+        main {
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            width: 97vw;
+        }
+
+        h1  {
+            color: rgb(208, 29, 29);
+        }
+
+        ul {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+        }
+
+        span.dinheiro {
+            color: rgb(23, 130, 23);
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>hello</h1>
-        <a href="">,</a>
-        <aside>world</aside>
-    </header>
     <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, vel? Est omnis qui quas minus nisi commodi hic eos, quasi minima eligendi velit suscipit in. Aut earum maxime odit necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt voluptatibus harum totam modi delectus deleniti? Autem similique optio maxime illum adipisci doloremque ducimus, amet error dignissimos sapiente neque perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore eius eligendi, sed fugiat sequi fuga, praesentium officia quia, sint rem est cupiditate ipsa beatae repellat! Ducimus maxime doloremque repellendus.</p>
+        <h1>Vende-se:</h1>
+        <ul>
+            <li>n sei: <span class="dinheiro">R$2,00</span>|KG</li>
+            <li>n sei</li>
+            <li>n sei2</li>
+        </ul>
     </main>
-    <footer>
-        <p>teste kk</p>
-	<p>mds</p>
-    <p>
-        oq sera hmm sla
-    </p>
-    <p>testes apenas</p>
-    </footer>
 </body>
 </html>
